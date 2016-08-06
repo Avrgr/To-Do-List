@@ -1,0 +1,149 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+}
+
+body
+{
+	background-color: #ccc;
+}
+
+#wrapper
+{
+	width: 440px;
+	margin: 0px auto;
+}
+
+header
+{
+	text-align: center;
+}
+
+header h1
+{
+	font-family: 'Fresca', sans-serif;
+	font-weight: normal;
+	font-size: 76px;
+	text-transform: uppercase;
+	letter-spacing: -2px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	text-shadow: 1px 1px 0px #fff;
+}
+
+section
+{
+	background-color: #fff;
+	/* rounded corners */
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	/* drop shadow */
+	-webkit-box-shadow: 3px 3px 3px 3px rgba(3, 3, 3, .4);
+	-moz-box-shadow: 3px 3px 3px 3px rgba(3, 3, 3, .4);
+	box-shadow: 3px 3px 3px 3px rgba(3, 3, 3, .4); 
+}
+
+section > header
+{
+	height: 50px;
+	background-color: #333;
+	border: 1px solid #333;
+	background: url('images/topbar_bg.png');
+	
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-radius-topleft: 15px;
+	-moz-border-radius-topright: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+section > header img
+{
+	margin-top: 11px;
+	cursor: pointer;
+}
+
+.right
+{
+	float: right;
+	margin-right: 15px;
+}
+
+.left
+{
+	float: left;
+	margin-left: 15px;
+}
+
+#listwrap
+{	
+	border: 1px solid #333;
+	-webkit-border-bottom-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-radius-bottomright: 15px;
+	-moz-border-radius-bottomleft: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+.listitem
+{
+	height: 25px;
+	line-height: 25px;
+	padding: 10px 10px;
+	border-bottom: 1px solid #333;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	text-overflow: ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+}
+
+#noListItems
+{
+	text-align: center;
+	font-style: italic;
+	color: #ccc;
+}
+
+.listitem input
+{
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+.listitem label
+{
+	margin-left: 10px;
+	color: #333;
+	width: 400px;
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+#list div:last-child
+{
+	border: none;
+	border-top: 1px solid #ccc;
+	-webkit-border-bottom-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-radius-bottomright: 15px;
+	-moz-border-radius-bottomleft: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+.selected
+{
+	background-color: #66cccc;
+}
+
+.selected > label
+{
+	color: #fff;
+}
